@@ -1,0 +1,59 @@
+h1 {
+    color:blueviolet;
+    background-color: rgb(191, 161, 249);
+    
+    }
+
+#bananas {
+    color:blue;
+}
+
+.coolClass {
+    color:hotpink;
+}
+
+h3 {
+    color:rgb(56, 157, 245)
+}
+
+li {
+    background-color: chartreuse;
+}
+
+li:nth-child(3n){
+    background-color: darkseagreen;
+}
+
+li:nth-child(even){
+    background-color: cyan;
+}
+
+li:marker {
+    color:crimson;
+}
+
+ul {
+    list-style-type:circle;
+}
+
+li:nth-child(even)::marker{
+color:blue;
+}
+
+p {
+    font-size: 2rem;
+    max-height: 100px;
+    overflow-y: hidden;
+}
+
+* {
+    margin:0;
+    padding:0;
+
+}
+img {
+    height:10%;
+    width:100vw;
+    max-width: 98vw;
+
+}
